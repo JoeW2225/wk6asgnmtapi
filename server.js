@@ -4,9 +4,10 @@ import express, { response } from "express";
 import bodyParser from "body-parser";
 import cors from "cors"
 
-app.use(cors())
-// create an instance of express to serve our end points
+
+// create an instance of express to serve our end points & enable cors
 const app = express();
+app.use(cors())
 app.get("/", (request,response) => {
     response.send("You're on the home route")
 })
