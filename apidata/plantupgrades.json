@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Auto-Sprinkler",
+        "cost": 100,
+        "increase": 1
+    },
+    {
+        "id": 2,
+        "name": "Enhanced Rays",
+        "cost": 500,
+        "increase": 5
+    },
+    {
+        "id": 3,
+        "name": "Tropical Climate",
+        "cost": 2000,
+        "increase": 20
+    },
+    {
+        "id": 4,
+        "name": "Advanced Fertilizer",
+        "cost": 5000,
+        "increase": 50
+    },
+    {
+        "id": 5,
+        "name": "Engorgio",
+        "cost": 12000,
+        "increase": 100
+    }
+]
