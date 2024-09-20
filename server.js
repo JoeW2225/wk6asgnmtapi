@@ -2,8 +2,9 @@
 //? use the import version like this as we are using ES modules, not the older CommonJS version on the guide:
 import express, { response } from "express";
 import bodyParser from "body-parser";
+import cors from "cors"
 
-
+app.use(cors())
 // create an instance of express to serve our end points
 const app = express();
 app.get("/", (request,response) => {
